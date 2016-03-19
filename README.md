@@ -6,8 +6,8 @@ It acts as a proxy and blocks incoming requests while the program compiles in th
 Fetch the binary with go get like so: `go get github.com/ksev/webr`
 
 The only requirement is that your target app has a configurable bind string for the http server that can be passed in through the command line.
-The webr binary only has three command line arguments -bind, -target-bind-arg-name and -h.
 
+The webr binary only has three command line arguments -bind, -target-bind-arg-name and -h.
 The default values explicitly passed would look something like this: 
 
 `webr -bind :8080 -target-bind-arg-name "-bind" -h false`
